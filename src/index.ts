@@ -83,3 +83,8 @@ export {
     ILanguage,
     SellerType
 } from "./interfaces/seller.interface"
+
+export {
+    cloudinaryUpload,
+    cloudinaryUploadVideos
+} from "./cloudinary-upload"
