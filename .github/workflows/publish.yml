@@ -20,7 +20,7 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - run |
+      - run: |
           echo @MayderC:https://npm.pkg.github.com/ >> build/.npmrc
           echo '//npm.pkg.github.com/:_authToken=${{NPM_TOKEN}}' >> build/.npmrc
       - name: Publish
